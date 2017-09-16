@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Explorando y aprendeindo html">
+		<title>Mi  primer pagina web con html5</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<header role="banner">
+				<div class="logo">
+					<img src="img/logo.png" alt="logo empresa">
+				</div>
+				<nav class="navegacion" role="navegacion">
+					<!--<a href="naipes.html">ir a naipes</a>-->
+					<ul>
+						<li><a href="nosotros.html">sobre nosotros</a></li>
+						<li><a href="https://www.udemy.com">cuross</a></li>
+						<li><a href="http://www.google.com" target="_self">google</a></li><!--_blank-->
+						<li><a href="#noticias">noticias</a></li> <!--ocupa un id en las class para identificar la parte y el # para referencias a esa seccion-->
+					</ul>
+				</nav>
+			</header>
+
+			<main class="contenedor-principal" role="main">
+				<section>
+					<h2>Nuestro cursos</h2>
+					<div>
+						<h3>html5</h3>
+						<img src="img/logo.png" height="50">
+						<a href="speak final.pdf" download="">Descarga programa</a>
+						<p>Ventajas de este curso</p>
+						<ul>
+							<li>lo puedes tomar en linea</li>
+							<ul>
+								<li>avanzar a tu ritmo</li>
+							</ul>
+							<li>puedes preguntar tus dudas al isntructor</li>
+						</ul>
+
+						<p>temario del curos</p>
+						<ol>
+							<li>basico d ehtom</li>
+							<ul>
+								<li>avanzar a tu ritmo</li>
+							</ul>
+							<li>etiquetas html5</li>
+							<li>crear enlaces</li>
+							<li>crear listas</li>
+						</ol>
+
+						<p>Lo que debes aprender para ser desarrollador web:</p>
+						<dl>
+							<dt>html5</dt>
+							<dd>agregar estructoras a tus desarrollos</dd>
+							<dt>css3</dt>
+							<dd>agregar presentacion a tus desarrollos</dd>
+						</dl>
+
+					</div>
+					<div>
+						<h3>css3</h3>
+						<img src="img/logo.png" height="50">
+					</div>
+					<div>
+						<h3>jhavascript</h3>
+						<img src="img/logo.png" height="50">
+					</div>
+				</section>
+				<section id="noticias">
+					<article role="article">
+						<h2>Ultimas noticias</h2>
+						<p>Aprender a programar en el siglo 21 es muy imporante de eiusmod tempor incidim  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiip ex ea comodo consequat.</p>
+					</article>
+					<article role="article">
+						<h2>Ultimas noticias</h2>
+						<p>Aprender a programar en el siglo 21 es muy imporante de eiusmod tempor incidim  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiip ex ea comodo consequat.</p>
+					</article>
+				</section>
+			</main><!--.contenido-->
+			<aside role="complementary">
+				<h2>crear tabla</h2>
+				<table width="300">
+					<caption><h2>proximos cursos</h2></caption>
+					<thead>
+						<tr>
+							<th>curso</th>
+							<th>precio</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<td colspan="2" align="center">
+								no se los puedes perder
+							</td>
+						</tr>
+					</tfoot>
+					<tbody>
+						<tr>
+							<td rowspan="2">php</td>
+							<td>$99</td>
+						</tr>
+						<tr>
+							<td>$99(sabado)</td>
+						</tr>
+						<tr>
+							<td>mysql</td>
+							<td>$29</td>
+						</tr>
+					</tbody>
+				</table>
+				<!--
+				<div>
+					<h3>php</h3>
+					<p>Aprender a programar en el siglo 21 es muy imporante de eiusmod tempor incidim  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiip ex ea comodo consequat.</p>
+				</div>
+				<div>
+					<h3>mysql</h3>
+					<p>Aprender a programar en el siglo 21 es muy imporante de eiusmod tempor incidim  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiip ex ea comodo consequat.</p>
+				</div>-->
+			</aside>
+		</div>
+
+		<footer role="contentinfo">
+			<div class="nosotros">
+				<h3>sobre nuestra escuela</h3>
+				<p>Aprender a programar en el siglo 21 es muy imporante de eiusmod tempor incidim  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquiip ex ea comodo consequat.</p>
+			</div>
+			<div class="menu">
+				<nav class="navegacion" role="navegation">
+					menu aqui
+				</nav>
+			</div>
+			
+			<p>Cursos de diseño web &mdash; Todos los derechos reservados &copy;</p>
+		</footer>
+
+	</body>
+</html>
