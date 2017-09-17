@@ -1,0 +1,130 @@
+/**Backgraund**/
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+
+body{
+	background: gray;
+}
+
+div.contenedor{
+	background: white;
+	width: 1000px;
+	/**margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;*/
+	/**padding: 12 3 6 9;*/
+	margin:20px auto 0 auto;
+	/*overflow: hidden;*/
+	/*border-bottom: 1px solid black;*/
+	padding-bottom: 100px;
+}
+
+header{
+	background: orange;
+	/*height: 100px;veapure high altura de la ventana  vh o vw y % es para responsivo*/
+	/*margin-bottom: 30px;*/
+	maring:0 0 30px 0;
+	/*padding-top: 20px;
+	padding-bottom: 20px;*/
+	padding: 20px 0;
+}
+
+h2{
+	/*margin-bottom: 40px;*/
+	margin: 0 0 40px 0;
+}
+
+main{
+	width: 500px;
+	float: left;
+}
+
+aside{
+	width: 500px;
+	float: right;
+}
+
+nav{
+	background: purple;
+	/*height: 80px;*/
+	margin-top: 40px;
+	/*margin: 40px 0 0 0;*/
+	/*padding-top: 40px;*/
+	padding: 20px 0;
+}
+
+nav ul{
+	padding: 0;/**elimina el padig agregado a ese nivel*/
+	list-style: none;
+}
+
+nav ul li{
+	float: left;
+	margin-right: 20px
+}
+
+nav ul li a {
+	color: white;
+}
+
+table{
+	background: cyan;
+	width: 50%;
+	margin-left: 20%;
+	/*margin: 0 0 0 20%;*/
+	margin-bottom: 100px;
+}
+
+tbody tr td{
+	/*padding-top: 5px;
+	padding-bottom: 5px;*/
+	padding: 5px 0;
+}
+
+footer{
+	background: yellow;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+footer nav{
+	background: transparent;
+}
+
+img.logocss{
+	width: 100px;
+}
+
+.clearfix:before,
+.clearfix:after{
+	content: '';
+	display: table;
+
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+section#introduccion{
+	/*width: 400px;*/
+	background: yellow;
+	padding: 40px;
+	/*box-sizing: border-box;*/
+	/*float: left;*/
+}
+
+section#cursos{
+	/*width: 400px;*/
+	background: orange;
+	border: 40px double white;
+	/*box-sizing: border-box;*/
+	/**border-top: 10px;
+	border-bottom: 10px;
+	border-right: 10px;
+	border-left: 10px;
+	border-style: double;dashed;solid;
+	border-color: white;*/
+	/*float: right;*/
+}
